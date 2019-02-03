@@ -2968,14 +2968,6 @@ table {
   font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
 }
 
-.font-hairline {
-  font-weight: 100;
-}
-
-.font-thin {
-  font-weight: 200;
-}
-
 .font-light {
   font-weight: 300;
 }
@@ -2994,22 +2986,6 @@ table {
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-extrabold {
-  font-weight: 800;
-}
-
-.font-black {
-  font-weight: 900;
-}
-
-.hover\:font-hairline:hover {
-  font-weight: 100;
-}
-
-.hover\:font-thin:hover {
-  font-weight: 200;
 }
 
 .hover\:font-light:hover {
@@ -3032,22 +3008,6 @@ table {
   font-weight: 700;
 }
 
-.hover\:font-extrabold:hover {
-  font-weight: 800;
-}
-
-.hover\:font-black:hover {
-  font-weight: 900;
-}
-
-.focus\:font-hairline:focus {
-  font-weight: 100;
-}
-
-.focus\:font-thin:focus {
-  font-weight: 200;
-}
-
 .focus\:font-light:focus {
   font-weight: 300;
 }
@@ -3066,14 +3026,6 @@ table {
 
 .focus\:font-bold:focus {
   font-weight: 700;
-}
-
-.focus\:font-extrabold:focus {
-  font-weight: 800;
-}
-
-.focus\:font-black:focus {
-  font-weight: 900;
 }
 
 .h-1 {
@@ -8572,14 +8524,6 @@ table {
     font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
-  .sm\:font-hairline {
-    font-weight: 100;
-  }
-
-  .sm\:font-thin {
-    font-weight: 200;
-  }
-
   .sm\:font-light {
     font-weight: 300;
   }
@@ -8598,22 +8542,6 @@ table {
 
   .sm\:font-bold {
     font-weight: 700;
-  }
-
-  .sm\:font-extrabold {
-    font-weight: 800;
-  }
-
-  .sm\:font-black {
-    font-weight: 900;
-  }
-
-  .sm\:hover\:font-hairline:hover {
-    font-weight: 100;
-  }
-
-  .sm\:hover\:font-thin:hover {
-    font-weight: 200;
   }
 
   .sm\:hover\:font-light:hover {
@@ -8636,22 +8564,6 @@ table {
     font-weight: 700;
   }
 
-  .sm\:hover\:font-extrabold:hover {
-    font-weight: 800;
-  }
-
-  .sm\:hover\:font-black:hover {
-    font-weight: 900;
-  }
-
-  .sm\:focus\:font-hairline:focus {
-    font-weight: 100;
-  }
-
-  .sm\:focus\:font-thin:focus {
-    font-weight: 200;
-  }
-
   .sm\:focus\:font-light:focus {
     font-weight: 300;
   }
@@ -8670,14 +8582,6 @@ table {
 
   .sm\:focus\:font-bold:focus {
     font-weight: 700;
-  }
-
-  .sm\:focus\:font-extrabold:focus {
-    font-weight: 800;
-  }
-
-  .sm\:focus\:font-black:focus {
-    font-weight: 900;
   }
 
   .sm\:h-1 {
@@ -14146,14 +14050,6 @@ table {
     font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
-  .md\:font-hairline {
-    font-weight: 100;
-  }
-
-  .md\:font-thin {
-    font-weight: 200;
-  }
-
   .md\:font-light {
     font-weight: 300;
   }
@@ -14172,22 +14068,6 @@ table {
 
   .md\:font-bold {
     font-weight: 700;
-  }
-
-  .md\:font-extrabold {
-    font-weight: 800;
-  }
-
-  .md\:font-black {
-    font-weight: 900;
-  }
-
-  .md\:hover\:font-hairline:hover {
-    font-weight: 100;
-  }
-
-  .md\:hover\:font-thin:hover {
-    font-weight: 200;
   }
 
   .md\:hover\:font-light:hover {
@@ -14210,22 +14090,6 @@ table {
     font-weight: 700;
   }
 
-  .md\:hover\:font-extrabold:hover {
-    font-weight: 800;
-  }
-
-  .md\:hover\:font-black:hover {
-    font-weight: 900;
-  }
-
-  .md\:focus\:font-hairline:focus {
-    font-weight: 100;
-  }
-
-  .md\:focus\:font-thin:focus {
-    font-weight: 200;
-  }
-
   .md\:focus\:font-light:focus {
     font-weight: 300;
   }
@@ -14244,14 +14108,6 @@ table {
 
   .md\:focus\:font-bold:focus {
     font-weight: 700;
-  }
-
-  .md\:focus\:font-extrabold:focus {
-    font-weight: 800;
-  }
-
-  .md\:focus\:font-black:focus {
-    font-weight: 900;
   }
 
   .md\:h-1 {
@@ -19720,14 +19576,6 @@ table {
     font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
-  .lg\:font-hairline {
-    font-weight: 100;
-  }
-
-  .lg\:font-thin {
-    font-weight: 200;
-  }
-
   .lg\:font-light {
     font-weight: 300;
   }
@@ -19746,22 +19594,6 @@ table {
 
   .lg\:font-bold {
     font-weight: 700;
-  }
-
-  .lg\:font-extrabold {
-    font-weight: 800;
-  }
-
-  .lg\:font-black {
-    font-weight: 900;
-  }
-
-  .lg\:hover\:font-hairline:hover {
-    font-weight: 100;
-  }
-
-  .lg\:hover\:font-thin:hover {
-    font-weight: 200;
   }
 
   .lg\:hover\:font-light:hover {
@@ -19784,22 +19616,6 @@ table {
     font-weight: 700;
   }
 
-  .lg\:hover\:font-extrabold:hover {
-    font-weight: 800;
-  }
-
-  .lg\:hover\:font-black:hover {
-    font-weight: 900;
-  }
-
-  .lg\:focus\:font-hairline:focus {
-    font-weight: 100;
-  }
-
-  .lg\:focus\:font-thin:focus {
-    font-weight: 200;
-  }
-
   .lg\:focus\:font-light:focus {
     font-weight: 300;
   }
@@ -19818,14 +19634,6 @@ table {
 
   .lg\:focus\:font-bold:focus {
     font-weight: 700;
-  }
-
-  .lg\:focus\:font-extrabold:focus {
-    font-weight: 800;
-  }
-
-  .lg\:focus\:font-black:focus {
-    font-weight: 900;
   }
 
   .lg\:h-1 {
@@ -25294,14 +25102,6 @@ table {
     font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
-  .xl\:font-hairline {
-    font-weight: 100;
-  }
-
-  .xl\:font-thin {
-    font-weight: 200;
-  }
-
   .xl\:font-light {
     font-weight: 300;
   }
@@ -25320,22 +25120,6 @@ table {
 
   .xl\:font-bold {
     font-weight: 700;
-  }
-
-  .xl\:font-extrabold {
-    font-weight: 800;
-  }
-
-  .xl\:font-black {
-    font-weight: 900;
-  }
-
-  .xl\:hover\:font-hairline:hover {
-    font-weight: 100;
-  }
-
-  .xl\:hover\:font-thin:hover {
-    font-weight: 200;
   }
 
   .xl\:hover\:font-light:hover {
@@ -25358,22 +25142,6 @@ table {
     font-weight: 700;
   }
 
-  .xl\:hover\:font-extrabold:hover {
-    font-weight: 800;
-  }
-
-  .xl\:hover\:font-black:hover {
-    font-weight: 900;
-  }
-
-  .xl\:focus\:font-hairline:focus {
-    font-weight: 100;
-  }
-
-  .xl\:focus\:font-thin:focus {
-    font-weight: 200;
-  }
-
   .xl\:focus\:font-light:focus {
     font-weight: 300;
   }
@@ -25392,14 +25160,6 @@ table {
 
   .xl\:focus\:font-bold:focus {
     font-weight: 700;
-  }
-
-  .xl\:focus\:font-extrabold:focus {
-    font-weight: 800;
-  }
-
-  .xl\:focus\:font-black:focus {
-    font-weight: 900;
   }
 
   .xl\:h-1 {
