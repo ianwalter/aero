@@ -2965,7 +2965,7 @@ table {
 }
 
 .font-mono {
-  font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  font-family: SF Mono, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
 }
 
 .font-light {
@@ -8521,7 +8521,7 @@ table {
   }
 
   .sm\:font-mono {
-    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-family: SF Mono, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
   .sm\:font-light {
@@ -14047,7 +14047,7 @@ table {
   }
 
   .md\:font-mono {
-    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-family: SF Mono, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
   .md\:font-light {
@@ -19573,7 +19573,7 @@ table {
   }
 
   .lg\:font-mono {
-    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-family: SF Mono, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
   .lg\:font-light {
@@ -25099,7 +25099,7 @@ table {
   }
 
   .xl\:font-mono {
-    font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-family: SF Mono, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   }
 
   .xl\:font-light {
