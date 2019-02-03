@@ -1,2 +1,2 @@
-# trunk
-Ian’s open source stylesheet
+# @ianwalter/trunk
+> Ian’s open source stylesheet
