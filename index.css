@@ -60,3 +60,13 @@
   * @import "utilities/background-patterns";
   * @import "utilities/skew-transforms";
   */
+
+  html {
+    @apply font-sans;
+  }
+
+ /**
+  * Components
+  */
+ @import "./css/anchor.css";
+ @import "./css/button.css";
