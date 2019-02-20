@@ -1,2 +1,2 @@
-# @ianwalter/trunk
-> Ian’s open source stylesheet
+# @appjumpstart/aero
+> An open-source CSS library for open-source software
