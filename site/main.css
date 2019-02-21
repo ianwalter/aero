@@ -1,3 +1,8 @@
 .example {
   @apply bg-grey-lighter border border-grey-light rounded p-8;
 }
+
+.nav-link {
+  @apply font-semibold uppercase text-sm text-indigo-light;
+  transition: color .25s ease-in-out;
+}
