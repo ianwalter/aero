@@ -1,3 +1,19 @@
 .btn {
-  @apply bg-indigo px-3 py-2 font-semibold rounded shadow-md text-white;
+  @apply inline-block px-4 py-3 font-medium rounded shadow-md;
+  transition: box-shadow .25s ease-in-out;
+}
+.btn:focus,
+.btn:hover {
+  @apply shadow-lg outline-none;
+}
+.btn:hover:active {
+  @apply shadow-none;
+}
+
+.btn-indigo {
+  @apply bg-indigo text-white;
+}
+
+.btn-white {
+  @apply bg-white text-grey-darkest
 }

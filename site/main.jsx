@@ -6,6 +6,7 @@ import SiteHeader from './components/SiteHeader'
 import Home from './components/Home'
 import Buttons from './components/Button'
 import '../index.css'
+import './main.css'
 
 const App = hot(() => (
   <Router>
