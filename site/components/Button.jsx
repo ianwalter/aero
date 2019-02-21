@@ -15,7 +15,7 @@ export default () => (
 
         <a
           href="#"
-          className="btn btn-indigo"
+          className="btn btn-blue"
         >
           Anchor btn-indigo
         </a>

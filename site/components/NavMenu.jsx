@@ -8,7 +8,7 @@ export default () => (
 
       <Link
         to="/"
-        class="nav-link hover:text-indigo-dark"
+        class="nav-link"
       >
         Home
       </Link>
@@ -23,7 +23,7 @@ export default () => (
 
       <Link
         to="/buttons"
-        class="nav-link hover:text-indigo-dark"
+        class="nav-link"
       >
         Button
       </Link>

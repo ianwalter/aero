@@ -1,6 +1,7 @@
 .btn {
   @apply inline-block px-4 py-3 font-medium rounded shadow-md;
-  transition: box-shadow .25s ease-in-out;
+  transition: box-shadow .25s ease-in,
+              background .25s ease-in;
 }
 .btn:focus,
 .btn:hover {
@@ -10,10 +11,14 @@
   @apply shadow-none;
 }
 
-.btn-indigo {
-  @apply bg-indigo text-white;
+.btn-blue, .btn-blue:hover {
+  @apply text-white;
+  background: linear-gradient(#3490dc, #6cb2eb);
 }
-
-.btn-white {
-  @apply bg-white text-grey-darkest
+.btn-white, .btn-white:hover {
+  @apply bg-white text-grey-darkest;
+}
+.btn-indigo, .btn-indigo:hover {
+  @apply text-white;
+  background: linear-gradient(#6574cd, #7886d7);
 }

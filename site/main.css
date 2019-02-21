@@ -3,6 +3,5 @@
 }
 
 .nav-link {
-  @apply font-semibold uppercase text-sm text-indigo-light;
-  transition: color .25s ease-in-out;
+  @apply font-semibold uppercase text-sm;
 }
