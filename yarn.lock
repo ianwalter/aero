@@ -4499,6 +4499,11 @@ pkg-dir@^3.0.0:
   dependencies:
     find-up "^3.0.0"
 
+popper.js@^1.14.7:
+  version "1.14.7"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.14.7.tgz#e31ec06cfac6a97a53280c3e55e4e0c860e7738e"
+  integrity sha512-4q1hNvoUre/8srWsH7hnoSJ5xVmIL4qgz+s4qf2TnJIMyZFUFMGH+9vE7mXynAlHSZ/NdTmmow86muD0myUkVQ==
+
 portfinder@^1.0.9:
   version "1.0.20"
   resolved "https://registry.yarnpkg.com/portfinder/-/portfinder-1.0.20.tgz#bea68632e54b2e13ab7b0c4775e9b41bf270e44a"
@@ -5802,6 +5807,13 @@ timers-browserify@^2.0.4:
   integrity sha512-YvC1SV1XdOUaL6gx5CoGroT3Gu49pK9+TZ38ErPldOWW4j49GI1HKs9DV+KGq/w6y+LZ72W1c8cKz2vzY+qpzg==
   dependencies:
     setimmediate "^1.0.4"
+
+tippy.js@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-4.0.2.tgz#2e292fd025fa31bedf91408a50dd3dbdfbcf881d"
+  integrity sha512-aFpO4/aUnFjuGLxH710y4CiCJ6jBQ7r4f4fTs1n6U6Wt155/k0W5uJill23VT1F9b0QhJjF4w1kJP39aS8nQZQ==
+  dependencies:
+    popper.js "^1.14.7"
 
 tmp@^0.0.33:
   version "0.0.33"
