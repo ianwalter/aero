@@ -9,7 +9,7 @@ export default function NavMenu () {
 
         <Link
           to="/"
-          class="nav-link"
+          className="nav-link uppercase"
         >
           Home
         </Link>
@@ -26,19 +26,25 @@ export default function NavMenu () {
           Components
         </h2>
 
-        <Link
-          to="/buttons"
-          class="nav-link"
-        >
-          Button
-        </Link>
+        <div className="flex items-center">
 
-        <Link
-          to="/buttons"
-          class="nav-link"
-        >
-          Alert
-        </Link>
+          <Link
+            to="/buttons"
+            className="nav-link"
+          >
+            Button
+          </Link>
+
+          <div className="bullit" />
+
+          <Link
+            to="/alerts"
+            className="nav-link"
+          >
+            Alert
+          </Link>
+
+        </div>
 
       </section>
 

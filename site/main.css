@@ -3,5 +3,9 @@
 }
 
 .nav-link {
-  @apply font-semibold uppercase text-sm;
+  @apply font-semibold text-sm;
+}
+
+.bullit {
+  @apply bg-grey-dark h-1 w-1 rounded-full mx-3;
 }
