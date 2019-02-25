@@ -2,7 +2,7 @@
   "name": "@appjumpstart/aero",
   "version": "0.0.0",
   "description": "An open-source CSS library for open-source software",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "AGPL-3.0",
   "scripts": {
     "lint": "eslint site --ext js,jsx",
     "build": "tailwind build index.css -c tailwind.js -o dist/trunk.css",
