@@ -659,15 +659,15 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@hot-loader/react-dom@^16.8.2":
-  version "16.8.2"
-  resolved "https://registry.yarnpkg.com/@hot-loader/react-dom/-/react-dom-16.8.2.tgz#710e713c5b28b49e0dd9fbd1643f1c0f5d7b244d"
-  integrity sha512-bUcSxfAZtt20S8+w5JNsXEc9ksccJLcP/sQWzC+5VT/FxtIE64nikQ+JEXhP+mXr9VOPw+2Mj0t+3FqkLiK32A==
+"@hot-loader/react-dom@^16.8.4":
+  version "16.8.4"
+  resolved "https://registry.yarnpkg.com/@hot-loader/react-dom/-/react-dom-16.8.4.tgz#aefe598ca26005c1ec3ac11d92d54ff3c1cd219c"
+  integrity sha512-S+5x4HJEMV7p2FzgUBEzrgiNJJeN4m5auTL3rZbmGsuyGt3Tgg8zgz6Mt1Udj8dKDxaryixDSNh0d/63TMqizg==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.13.2"
+    scheduler "^0.13.4"
 
 "@ianwalter/dracula@^2.0.0":
   version "2.0.0"
@@ -5219,10 +5219,10 @@ sax@^1.2.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-scheduler@^0.13.2:
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.2.tgz#969eaee2764a51d2e97b20a60963b2546beff8fa"
-  integrity sha512-qK5P8tHS7vdEMCW5IPyt8v9MJOHqTrOUgPXib7tqm9vh834ibBX5BNhwkplX/0iOzHW5sXyluehYfS9yrkz9+w==
+scheduler@^0.13.2, scheduler@^0.13.4:
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.4.tgz#8fef05e7a3580c76c0364d2df5e550e4c9140298"
+  integrity sha512-cvSOlRPxOHs5dAhP9yiS/6IDmVAVxmk33f0CtTJRkmUWcb1Us+t7b1wqdzoC0REw2muC9V5f1L/w5R5uKGaepA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
