@@ -1,14 +1,8 @@
 .tabs {
-  @apply flex text-lg font-medium;
+  @apply flex flex-wrap text-lg font-medium;
 }
 .tabs .tab {
-  @apply mx-1 px-6 py-3;
-}
-.tabs .tab:first-of-type {
-  @apply ml-0;
-}
-.tabs .tab:last-of-type {
-  @apply mr-0;
+  @apply mx-1 my-2 px-6 py-3;
 }
 .tabs .tab.active {
   @apply rounded-full text-white shadow;
