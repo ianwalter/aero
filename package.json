@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.3.3",
-    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-env": "^7.3.4",
     "@babel/preset-react": "^7.0.0",
     "@hot-loader/react-dom": "^16.8.4",
     "@ianwalter/dracula": "^2.0.0",
