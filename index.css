@@ -68,6 +68,7 @@
  /**
   * Components
   */
+ @import "./css/alert.css";
  @import "./css/anchor.css";
  @import "./css/button.css";
- @import "./css/alert.css";
+ @import "./css/tabs.css";

@@ -15,17 +15,12 @@
     "@babel/preset-react": "^7.0.0",
     "@hot-loader/react-dom": "^16.8.4",
     "@ianwalter/dracula": "^2.0.0",
+    "@ianwalter/eslint-config": "^1.1.0",
     "@tippy.js/react": "^2.0.2",
     "babel-loader": "^8.0.5",
     "clean-webpack-plugin": "^1.0.1",
     "css-loader": "^2.1.0",
-    "eslint": "^5.14.1",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-standard": "^4.0.0",
     "html-webpack-plugin": "^3.2.0",
     "postcss-loader": "^3.0.0",
     "react": "^16.8.4",
@@ -53,8 +48,7 @@
       "parser": "babel-eslint"
     },
     "extends": [
-      "eslint:recommended",
-      "standard",
+      "@ianwalter/eslint-config",
       "plugin:react/recommended"
     ],
     "plugins": [

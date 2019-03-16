@@ -1,12 +1,12 @@
 a.btn,
 .btn {
-  @apply inline-block px-4 py-3 font-medium rounded shadow-md;
-  transition: box-shadow .25s ease-in,
-              background .25s ease-in;
+  @apply inline-block px-4 py-3 font-medium rounded shadow;
+  transition: box-shadow .25s ease-out,
+              background .25s ease-out;
 }
 .btn:focus,
 .btn:hover {
-  @apply shadow-lg outline-none;
+  @apply shadow-md outline-none;
 }
 .btn:hover:active {
   @apply shadow-none;

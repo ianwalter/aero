@@ -1,8 +1,8 @@
 a,
 a:hover {
   @apply no-underline text-blue;
-  transition: color .25s ease-in-out;
+  transition: color .25s ease-out;
 }
 a:hover {
-  @apply text-blue-dark;
+  @apply text-blue-darker;
 }

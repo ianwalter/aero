@@ -29,6 +29,15 @@ export default function NavMenu () {
         <div className="flex items-center">
 
           <Link
+            to="/alerts"
+            className="nav-link"
+          >
+            Alert
+          </Link>
+
+          <div className="bullit" />
+
+          <Link
             to="/buttons"
             className="nav-link"
           >
@@ -38,10 +47,10 @@ export default function NavMenu () {
           <div className="bullit" />
 
           <Link
-            to="/alerts"
+            to="/tabs"
             className="nav-link"
           >
-            Alert
+            Tabs
           </Link>
 
         </div>
