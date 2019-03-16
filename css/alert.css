@@ -1,0 +1,19 @@
+.alert {
+  @apply bg-grey-lighter border rounded border-grey-light p-6;
+}
+
+.alert.alert-success {
+  @apply bg-green-lightest border-green-light text-green-darker;
+}
+
+.alert.alert-danger {
+  @apply bg-red-lightest border-red-light text-red-darker;
+}
+
+.alert.alert-warning {
+  @apply bg-orange-lightest border-orange-light text-orange-darker;
+}
+
+.alert.alert-info {
+  @apply bg-blue-lightest border-blue-light text-blue-darker;
+}

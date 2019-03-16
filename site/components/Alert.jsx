@@ -10,36 +10,37 @@ export default function Alert () {
         Good ole alerts.
       </p>
 
-      <div className="flex py-4">
+      <div className="flex py-4 flex-wrap">
 
         <div className="example mr-8 mt-8 mb-8">
 
-          <a
-            href="#"
-            className="btn btn-blue"
-          >
-            Anchor btn-indigo
-          </a>
+          <div class="alert alert-info">
+            <strong>Hey hey!</strong> Here is some info to read.
+          </div>
 
         </div>
 
-        <div className="example m-8">
+        <div className="example mr-8 mt-8 mb-8">
 
-          <button
-            className="btn btn-indigo"
-          >
-            Button btn-indigo
-          </button>
+          <div class="alert alert-success">
+            <strong>Success!</strong> You have seen this alert.
+          </div>
 
         </div>
 
-        <div className="example ml-8 mt-8 mb-8">
+        <div className="example mr-8 mt-8 mb-8">
 
-          <button
-            className="btn btn-white"
-          >
-            Button btn-white
-          </button>
+          <div class="alert alert-warning">
+            <strong>Warning!</strong> You are reading an alert.
+          </div>
+
+        </div>
+
+        <div className="example mr-8 mt-8 mb-8">
+
+          <div class="alert alert-danger">
+            <strong>Error!</strong> Something is not quite right.
+          </div>
 
         </div>
 
