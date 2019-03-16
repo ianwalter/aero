@@ -7,7 +7,7 @@ export default function Alert () {
       <h1>Alerts</h1>
 
       <p className="py-4">
-        Good 'ole alerts.
+        Good ole alerts.
       </p>
 
       <div className="flex py-4">
