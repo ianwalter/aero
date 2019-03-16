@@ -9,6 +9,7 @@ module.exports = {
   mode: isProduction ? 'production' : 'development',
   entry: './site/main.jsx',
   output: {
+    path: join(__dirname, 'site/dist'),
     filename: 'js/[name].bundle.js',
     chunkFilename: 'js/[id].[chunkhash].js'
   },

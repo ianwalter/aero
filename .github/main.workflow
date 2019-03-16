@@ -14,3 +14,17 @@ action "Lint" {
   runs = "yarn"
   args = "lint"
 }
+
+action "Build CSS" {
+  uses = "docker://node:11-alpine"
+  needs = ["Install"]
+  runs = "yarn"
+  args = "build"
+}
+
+action "Build Site" {
+  uses = "docker://node:11-alpine"
+  needs = ["Install"]
+  runs = "yarn"
+  args = "build:site"
+}
