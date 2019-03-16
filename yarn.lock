@@ -737,13 +737,13 @@
     eslint-plugin-promise "^4.0.1"
     eslint-plugin-standard "^4.0.0"
 
-"@tippy.js/react@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@tippy.js/react/-/react-2.0.2.tgz#5dd0c9c0a122c880b360009688dd2192d72623a1"
-  integrity sha512-sML7vtNYPaFwKmLqRvBsL5JwYAA9dg6d1tzk8f7OoBE57v+BzAuiUPK1OKNo0hiA2T1lHPvp7I3lOtwhrRP8Xw==
+"@tippy.js/react@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@tippy.js/react/-/react-2.1.1.tgz#3d106963ec81d55098b6ac6f85c9f7b1a76b9fc0"
+  integrity sha512-rIM5nHuaTek5uEDDD+AjkUEtVCiU6m6Boc5F9bFMiUMp8zEaodZUG7kn/xCD3jR5SfFius3gCdYq0VOZpyypQQ==
   dependencies:
     prop-types "^15.6.2"
-    tippy.js "^4.0.0"
+    tippy.js "^4.0.3"
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
@@ -5924,10 +5924,10 @@ timers-browserify@^2.0.4:
   dependencies:
     setimmediate "^1.0.4"
 
-tippy.js@^4.0.0:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-4.0.2.tgz#2e292fd025fa31bedf91408a50dd3dbdfbcf881d"
-  integrity sha512-aFpO4/aUnFjuGLxH710y4CiCJ6jBQ7r4f4fTs1n6U6Wt155/k0W5uJill23VT1F9b0QhJjF4w1kJP39aS8nQZQ==
+tippy.js@^4.0.3:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-4.2.0.tgz#68387485cbc5d30ad5416bb01a20e63548898145"
+  integrity sha512-+WZRGtpIusZeJdZB2W5/rmOsT+6t3ASiQP0gln/OW1c+Goc6lx4vf+3i3KAJO875y7Vc1hGmFgyAMHor/eISBQ==
   dependencies:
     popper.js "^1.14.7"
 
