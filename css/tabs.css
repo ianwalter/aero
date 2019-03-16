@@ -2,10 +2,10 @@
   @apply flex flex-wrap text-lg font-medium;
 }
 .tabs .tab {
-  @apply mx-1 my-2 px-6 py-3;
+  @apply mx-1 my-2 px-5 py-2;
 }
 .tabs .tab.active {
   @apply rounded-full text-white shadow;
-  background: linear-gradient(#3490dc, #6cb2eb);
+  background: linear-gradient(#3490dc, #2779bd);
   transition: color 0s;
 }

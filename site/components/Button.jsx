@@ -7,7 +7,7 @@ export default function Button () {
       <h1>Buttons</h1>
 
       <p className="py-4">
-        Ahh buttons.
+        Elements that users click or touch to perform an action.
       </p>
 
       <div className="flex py-4">

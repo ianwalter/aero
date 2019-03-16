@@ -4,7 +4,7 @@ import NavMenu from './NavMenu'
 
 export default function SiteHeader () {
   return (
-    <header className="bg-grey-lighter h-16 pt-5 text-center font-semibold border-b border-grey-light">
+    <header className="bg-grey-lighter h-16 pt-4 text-center font-semibold border-b border-grey-light">
       <Tippy
         content={<NavMenu />}
         interactive={true}
@@ -13,7 +13,7 @@ export default function SiteHeader () {
         size="large"
         theme="light-border"
       >
-        <span className="cursor-pointer text-xl">aero</span>
+        <span className="cursor-pointer text-2xl text-blue-dark">aero</span>
       </Tippy>
     </header>
   )

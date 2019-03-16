@@ -14,12 +14,13 @@ a.btn,
 
 .btn-blue, .btn-blue:hover {
   @apply text-white;
-  background: linear-gradient(#3490dc, #6cb2eb);
+  background: linear-gradient(#3490dc, #2779bd);
 }
 .btn-white, .btn-white:hover {
-  @apply bg-white text-grey-darkest;
+  @apply text-grey-darkest;
+  background: linear-gradient(#ffffff, #f8fafc);
 }
 .btn-indigo, .btn-indigo:hover {
   @apply text-white;
-  background: linear-gradient(#6574cd, #7886d7);
+  background: linear-gradient(#6574cd, #5661b3);
 }
