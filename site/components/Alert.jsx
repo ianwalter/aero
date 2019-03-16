@@ -14,7 +14,7 @@ export default function Alert () {
 
         <div className="example mr-8 mt-8 mb-8">
 
-          <div class="alert alert-info">
+          <div className="alert alert-info">
             <strong>Hey hey!</strong> Here is some info to read.
           </div>
 
@@ -22,7 +22,7 @@ export default function Alert () {
 
         <div className="example mr-8 mt-8 mb-8">
 
-          <div class="alert alert-success">
+          <div className="alert alert-success">
             <strong>Success!</strong> You have seen this alert.
           </div>
 
@@ -30,7 +30,7 @@ export default function Alert () {
 
         <div className="example mr-8 mt-8 mb-8">
 
-          <div class="alert alert-warning">
+          <div className="alert alert-warning">
             <strong>Warning!</strong> You are reading an alert.
           </div>
 
@@ -38,7 +38,7 @@ export default function Alert () {
 
         <div className="example mr-8 mt-8 mb-8">
 
-          <div class="alert alert-danger">
+          <div className="alert alert-danger">
             <strong>Error!</strong> Something is not quite right.
           </div>
 
