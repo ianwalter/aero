@@ -2,7 +2,9 @@ a.btn,
 .btn {
   @apply inline-block px-4 py-3 font-medium rounded shadow;
   transition: box-shadow .25s ease-out,
-              background .25s ease-out;
+              background .25s ease-out,
+              transform .25s ease-out;
+  -webkit-transform: perspective(1px); /* added to fix webkit jitter */
 }
 .btn:focus,
 .btn:hover {
@@ -10,14 +12,19 @@ a.btn,
 }
 .btn:hover:active {
   @apply shadow-none;
+  transform: scale(.96);
+}
+
+.btn.btn-sm {
+  @apply py-2 px-3 text-sm;
 }
 
 .btn-blue, .btn-blue:hover {
   @apply text-white;
   background: linear-gradient(#3490dc, #2779bd);
 }
-.btn-white, .btn-white:hover {
-  @apply text-grey-darkest;
+.btn.btn-white, .btn.btn-white:hover {
+  @apply text-grey-darkest border;
   background: linear-gradient(#ffffff, #f8fafc);
 }
 .btn-indigo, .btn-indigo:hover {

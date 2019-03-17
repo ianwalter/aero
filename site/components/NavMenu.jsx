@@ -1,17 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import HomeIcon from './icons/Home'
+
 export default function NavMenu () {
   return (
-    <div className="text-left">
+    <div className="text-left p-4">
 
-      <section className="mb-3">
+      <section className="mb-6 text-center">
 
         <Link
           to="/"
-          className="nav-link uppercase"
+          className="btn btn-sm btn-white"
         >
-          Home
+          <div className="flex items-center">
+            <HomeIcon className="w-4 h-4 mr-2" /> Home
+          </div>
         </Link>
 
       </section>

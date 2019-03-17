@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Button () {
   return (
-    <div className="container mx-auto mt-12">
+    <div className="container mx-auto mt-8 p-4">
 
       <h1>Buttons</h1>
 
@@ -10,9 +10,9 @@ export default function Button () {
         Elements that users click or touch to perform an action.
       </p>
 
-      <div className="flex py-4">
+      <div className="flex flex-wrap justify-around py-4">
 
-        <div className="example mr-8 mt-8 mb-8">
+        <div className="example my-8">
 
           <a
             href="#"
@@ -23,7 +23,7 @@ export default function Button () {
 
         </div>
 
-        <div className="example m-8">
+        <div className="example my-8">
 
           <button
             className="btn btn-indigo"
@@ -33,7 +33,7 @@ export default function Button () {
 
         </div>
 
-        <div className="example ml-8 mt-8 mb-8">
+        <div className="example my-8">
 
           <button
             className="btn btn-white"

@@ -5,7 +5,7 @@
   @apply mx-1 my-2 px-5 py-2;
 }
 .tabs .tab.active {
-  @apply rounded-full text-white shadow;
+  @apply rounded-full text-white shadow-md;
   background: linear-gradient(#3490dc, #2779bd);
   transition: color 0s;
 }
