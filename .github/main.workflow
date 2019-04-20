@@ -38,6 +38,6 @@ action "Master Branch Filter" {
 action "Deploy" {
   uses = "ianwalter/rclone@master"
   needs = ["Master Branch Filter"]
-  args = "sync -c rclone.conf site/dist spaces:appjumpstart/aero"
+  args = "sync -c rclone.conf ./site/dist spaces:appjumpstart/aero"
   secrets = ["RCLONE_CONFIG_SPACES_ACCESS_KEY_ID", "RCLONE_CONFIG_SPACES_SECRET_ACCESS_KEY"]
 }
