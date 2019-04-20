@@ -7,8 +7,9 @@ export default function Alert () {
       <h1>Alerts</h1>
 
       <p className="py-4">
-        Elements that contain a message designed to draw more attention and give
-        users more context than standard text.
+        Elements that contain a message designed to give users context around
+        something that has recently happened. These messages should draw more
+        attention than standard text.
       </p>
 
       <div className="flex py-4 flex-wrap">

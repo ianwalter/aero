@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Button () {
   return (
-    <div className="container mx-auto mt-8 p-4">
+    <div className="container mx-auto mt-12">
 
       <h1>Buttons</h1>
 
