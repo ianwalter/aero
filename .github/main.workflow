@@ -1,6 +1,6 @@
-workflow "CI" {
+workflow "CD" {
   on = "push"
-  resolves = ["Lint"]
+  resolves = ["Lint", "Build CSS", "Deploy"]
 }
 
 action "Install" {
@@ -28,3 +28,16 @@ action "Build Site" {
   runs = "yarn"
   args = "build:site"
 }
+
+action "Master Branch Filter" {
+  uses = "actions/bin/filter@b2bea07"
+  needs = ["Build Site"]
+  args = "branch master"
+}
+
+action "Deploy" {
+  uses = "ianwalter/rclone@master"
+  needs = ["Master Branch Filter"]
+  args = "-c rclone.conf sync site/dist spaces:appjumpstart/aero"
+}
+

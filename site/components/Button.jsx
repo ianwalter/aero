@@ -6,7 +6,7 @@ export default function Button () {
 
       <h1>Buttons</h1>
 
-      <p className="py-4">
+      <p className="py-4 text-lg">
         Elements that users click or touch to perform an action.
       </p>
 

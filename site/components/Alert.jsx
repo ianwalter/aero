@@ -6,7 +6,7 @@ export default function Alert () {
 
       <h1>Alerts</h1>
 
-      <p className="py-4">
+      <p className="py-4 text-lg leading-normal">
         Elements that contain a message designed to give users context around
         something that has recently happened. These messages should draw more
         attention than standard text.
