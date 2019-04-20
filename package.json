@@ -16,7 +16,7 @@
     "@hot-loader/react-dom": "^16.8.4",
     "@ianwalter/dracula": "^2.0.0",
     "@ianwalter/eslint-config-react": "^1.0.2",
-    "@tippy.js/react": "^2.0.2",
+    "@tippy.js/react": "^2.1.2",
     "babel-loader": "^8.0.5",
     "clean-webpack-plugin": "^1.0.1",
     "css-loader": "^2.1.0",

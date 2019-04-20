@@ -781,19 +781,6 @@
     eslint "^5.14.1"
     eslint-plugin-react "^7.12.4"
 
-"@ianwalter/eslint-config@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/eslint-config/-/eslint-config-1.1.0.tgz#620a614f702c3730ba44e45fe83afb7b768a4db5"
-  integrity sha512-yT7OKtJTXIz4fITnpolXDLIlyBU4e60+xtba5+ys6VD4iCELfgCEq56SiqONMZzIgEyQrxiCCwnx0kyWeI44hg==
-  dependencies:
-    eslint "^5.14.1"
-    eslint-config-standard "^12.0.0"
-    eslint-plugin-html "^5.0.3"
-    eslint-plugin-import "^2.16.0"
-    eslint-plugin-node "^8.0.1"
-    eslint-plugin-promise "^4.0.1"
-    eslint-plugin-standard "^4.0.0"
-
 "@ianwalter/eslint-config@^1.1.1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@ianwalter/eslint-config/-/eslint-config-1.1.2.tgz#a88bbc4b09d715c53d59571690c1a3b56d56ebdb"
@@ -807,13 +794,13 @@
     eslint-plugin-promise "^4.0.1"
     eslint-plugin-standard "^4.0.0"
 
-"@tippy.js/react@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@tippy.js/react/-/react-2.0.2.tgz#5dd0c9c0a122c880b360009688dd2192d72623a1"
-  integrity sha512-sML7vtNYPaFwKmLqRvBsL5JwYAA9dg6d1tzk8f7OoBE57v+BzAuiUPK1OKNo0hiA2T1lHPvp7I3lOtwhrRP8Xw==
+"@tippy.js/react@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@tippy.js/react/-/react-2.1.2.tgz#2f51a206d3b90ee2423574bf256c76e1cf2b3e53"
+  integrity sha512-5napcBju8l285PiNoNHlVj0rqVHevlwBV2ndXAzbvzUfFgtb3NxoMWUWT9vCBwx6hzK3ljAw8qqTtmkImYvVEg==
   dependencies:
     prop-types "^15.6.2"
-    tippy.js "^4.0.0"
+    tippy.js "^4.2.1"
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
@@ -6014,10 +6001,10 @@ timers-browserify@^2.0.4:
   dependencies:
     setimmediate "^1.0.4"
 
-tippy.js@^4.0.0:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-4.0.2.tgz#2e292fd025fa31bedf91408a50dd3dbdfbcf881d"
-  integrity sha512-aFpO4/aUnFjuGLxH710y4CiCJ6jBQ7r4f4fTs1n6U6Wt155/k0W5uJill23VT1F9b0QhJjF4w1kJP39aS8nQZQ==
+tippy.js@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-4.2.1.tgz#9e4939d976465f77229b05a3cb233b5dc28cf850"
+  integrity sha512-xEE7zYNgQxCDdPcuT6T04f0frPh0wO7CcIqJKMFazU/NqusyjCgYSkLRosIHoiRkZMRzSPOudC8wRN5GjvAyOQ==
   dependencies:
     popper.js "^1.14.7"
 
