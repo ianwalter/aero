@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint site --ext js,jsx",
     "build": "tailwind build index.css -c tailwind.js -o dist/aero.css",
-    "build:site": "webpack",
+    "build:site": "webpack -p",
     "start": "webpack-dev-server"
   },
   "devDependencies": {
