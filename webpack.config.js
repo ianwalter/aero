@@ -20,13 +20,13 @@ module.exports = (_, { mode = 'development' }) => {
       }
     },
     plugins: [
-      new CleanWebpackPlugin(),
-      new HtmlWebpackPlugin({ template: 'site/index.html' }),
       ...(isProduction ? [
+        new CleanWebpackPlugin(),
         new MiniCssExtractPlugin({ filename: 'css/[name].[contenthash].css' })
       ] : [
         new webpack.HotModuleReplacementPlugin()
-      ])
+      ]),
+      new HtmlWebpackPlugin({ template: 'site/index.html' })
     ],
     module: {
       rules: [
@@ -43,7 +43,11 @@ module.exports = (_, { mode = 'development' }) => {
             {
               loader: '@fullhuman/purgecss-loader',
               options: {
-                content: [join(__dirname, 'site/**/*.jsx')]
+                content: [
+                  join(__dirname, 'site/index.html'),
+                  join(__dirname, 'site/**/*.jsx')
+                ],
+                whitelistPatterns: [/tippy/]
               }
             },
             {
