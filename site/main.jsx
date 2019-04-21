@@ -1,4 +1,4 @@
-import React, { lazy } from 'react'
+import React, { Fragment, lazy, Suspense } from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { hot } from 'react-hot-loader/root'
@@ -14,18 +14,20 @@ const Tabs = lazy(() => import('./components/Tabs'))
 
 const App = hot(() => (
   <Router>
-    <React.Fragment>
+    <Fragment>
 
       <SiteHeader />
 
       <main>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/alerts" component={Alert} />
-        <Route exact path="/buttons" component={Button} />
-        <Route exact path="/tabs" component={Tabs} />
+        <Suspense fallback={<div/>}>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/alerts" component={Alert} />
+          <Route exact path="/buttons" component={Button} />
+          <Route exact path="/tabs" component={Tabs} />
+        </Suspense>
       </main>
 
-    </React.Fragment>
+    </Fragment>
   </Router>
 ))
 
