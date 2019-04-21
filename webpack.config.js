@@ -17,7 +17,7 @@ module.exports = (_, { mode = 'development' }) => ({
     }
   },
   plugins: [
-    new CleanWebpackPlugin(['site/dist']),
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({ template: 'site/index.html' }),
     ...(mode === 'production' ? [] : [new webpack.HotModuleReplacementPlugin()])
   ],
