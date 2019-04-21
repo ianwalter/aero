@@ -1,14 +1,16 @@
-import React from 'react'
+import React, { lazy } from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { hot } from 'react-hot-loader/root'
 import SiteHeader from './components/SiteHeader'
-import Home from './components/Home'
-import Alert from './components/Alert'
-import Button from './components/Button'
-import Tabs from './components/Tabs'
+
 import '../index.css'
 import './main.css'
+
+const Home = lazy(() => import('./components/Home'))
+const Alert = lazy(() => import('./components/Alert'))
+const Button = lazy(() => import('./components/Button'))
+const Tabs = lazy(() => import('./components/Tabs'))
 
 const App = hot(() => (
   <Router>

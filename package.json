@@ -11,14 +11,13 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.3.4",
-    "@babel/preset-react": "^7.0.0",
     "@hot-loader/react-dom": "^16.8.4",
     "@ianwalter/dracula": "^2.0.0",
     "@ianwalter/eslint-config-react": "^1.0.2",
     "@tippy.js/react": "^2.1.2",
     "babel-loader": "^8.0.5",
     "clean-webpack-plugin": "^1.0.1",
+    "core-js": "^3.0.1",
     "css-loader": "^2.1.1",
     "html-webpack-plugin": "^3.2.0",
     "postcss-loader": "^3.0.0",
@@ -37,8 +36,7 @@
   ],
   "babel": {
     "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
+      "@ianwalter/react"
     ],
     "plugins": [
       "react-hot-loader/babel"

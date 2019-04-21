@@ -3,15 +3,12 @@ const webpack = require('webpack')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
-const isProduction = process.env.NODE_ENV === 'production'
-
-module.exports = {
-  mode: isProduction ? 'production' : 'development',
+module.exports = (_, { mode = 'development' }) => ({
+  mode,
   entry: './site/main.jsx',
   output: {
     path: join(__dirname, 'site/dist'),
-    filename: 'js/[name].bundle.js',
-    chunkFilename: 'js/[id].[chunkhash].js'
+    filename: 'js/[name].[contenthash].js'
   },
   resolve: {
     extensions: ['.js', '.jsx', '.json'],
@@ -22,7 +19,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['site/dist']),
     new HtmlWebpackPlugin({ template: 'site/index.html' }),
-    new webpack.HotModuleReplacementPlugin()
+    ...(mode === 'production' ? [] : [new webpack.HotModuleReplacementPlugin()])
   ],
   module: {
     rules: [
@@ -57,4 +54,4 @@ module.exports = {
     historyApiFallback: true,
     disableHostCheck: true
   }
-}
+})
