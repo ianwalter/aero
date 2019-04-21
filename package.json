@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
+    "@fullhuman/purgecss-loader": "^1.0.0",
     "@hot-loader/react-dom": "^16.8.4",
     "@ianwalter/dracula": "^2.0.0",
     "@ianwalter/eslint-config-react": "^1.0.2",
@@ -20,6 +21,7 @@
     "core-js": "^3.0.1",
     "css-loader": "^2.1.1",
     "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.6.0",
     "postcss-loader": "^3.0.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.6",

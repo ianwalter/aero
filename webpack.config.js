@@ -2,6 +2,7 @@ const { join } = require('path')
 const webpack = require('webpack')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = (_, { mode = 'development' }) => ({
   mode,
@@ -19,7 +20,11 @@ module.exports = (_, { mode = 'development' }) => ({
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({ template: 'site/index.html' }),
-    ...(mode === 'production' ? [] : [new webpack.HotModuleReplacementPlugin()])
+    ...(mode === 'production' ? [
+      new MiniCssExtractPlugin({ filename: 'css/[name].[contenthash].css' })
+    ] : [
+      new webpack.HotModuleReplacementPlugin()
+    ])
   ],
   module: {
     rules: [
@@ -31,8 +36,14 @@ module.exports = (_, { mode = 'development' }) => ({
       {
         test: /\.css$/,
         use: [
-          'style-loader',
+          mode === 'production' ? MiniCssExtractPlugin.loader : 'style-loader',
           { loader: 'css-loader', options: { importLoaders: 1 } },
+          {
+            loader: '@fullhuman/purgecss-loader',
+            options: {
+              content: [join(__dirname, 'site/**/*.jsx')]
+            }
+          },
           {
             loader: 'postcss-loader',
             options: {
