@@ -12,7 +12,7 @@ module.exports = (_, { mode = 'development' }) => {
     entry: './site/main.jsx',
     output: {
       path: join(__dirname, 'site/dist'),
-      filename: `js/[name].[${isProduction ? 'contenthash' : 'hash'}.js`
+      filename: `js/[name].[${isProduction ? 'contenthash' : 'hash'}].js`
     },
     resolve: {
       extensions: ['.js', '.jsx', '.json'],
