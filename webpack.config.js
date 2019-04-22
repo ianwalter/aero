@@ -3,6 +3,7 @@ const webpack = require('webpack')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const NukeCssPlugin = require('nukecss-webpack')
 
 module.exports = (_, { mode = 'development' }) => {
   const isProduction = mode === 'production'
@@ -26,7 +27,8 @@ module.exports = (_, { mode = 'development' }) => {
       ] : [
         new webpack.HotModuleReplacementPlugin()
       ]),
-      new HtmlWebpackPlugin({ template: 'site/index.html' })
+      new HtmlWebpackPlugin({ template: 'site/index.html' }),
+      new NukeCssPlugin()
     ],
     module: {
       rules: [
@@ -40,16 +42,6 @@ module.exports = (_, { mode = 'development' }) => {
           use: [
             isProduction ? MiniCssExtractPlugin.loader : 'style-loader',
             { loader: 'css-loader', options: { importLoaders: 1 } },
-            {
-              loader: '@fullhuman/purgecss-loader',
-              options: {
-                content: [
-                  join(__dirname, 'site/index.html'),
-                  join(__dirname, 'site/**/*.jsx')
-                ],
-                whitelistPatterns: [/tippy/]
-              }
-            },
             {
               loader: 'postcss-loader',
               options: {
