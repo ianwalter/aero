@@ -10,7 +10,7 @@
     "start": "webpack-dev-server"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.3",
+    "@babel/core": "^7.4.4",
     "@hot-loader/react-dom": "^16.8.6",
     "@ianwalter/babel-preset-react": "^1.0.0",
     "@ianwalter/dracula": "^2.0.0",
