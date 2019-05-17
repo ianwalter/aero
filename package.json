@@ -1,0 +1,11 @@
+{
+  "main": "dist/aero.css",
+  "scripts": {
+    "build:css": "postcss index.css -o dist/aero.css"
+  },
+  "devDependencies": {
+    "postcss-cli": "^6.1.2",
+    "postcss-import": "^12.0.1",
+    "tailwindcss": "^1.0.1"
+  }
+}
