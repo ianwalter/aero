@@ -1,3 +1,8 @@
+@import url('https://rsms.me/interface/interface.css');
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@import "css/anchor.css";
+@import "css/list.css";
+@import "css/button.css";

@@ -1,0 +1,26 @@
+a.button,
+.button {
+  @apply inline-block px-4 py-3 font-medium rounded shadow no-underline;
+  transition: box-shadow .25s ease-out,
+              background .25s ease-out,
+              transform .25s ease-out;
+  -webkit-transform: perspective(1px); /* added to fix webkit jitter */
+}
+.button:hover {
+  @apply shadow-lg;
+}
+.button:hover,
+.button:focus {
+  @apply outline-none;
+}
+.button:hover:active {
+  @apply shadow-none;
+  transform: scale(.96);
+}
+.button-blue, .button-blue:hover {
+  @apply text-white;
+  background: linear-gradient(
+    theme('colors.blue.500'),
+    theme('colors.blue.600')
+  );
+}
