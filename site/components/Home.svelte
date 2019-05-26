@@ -19,7 +19,7 @@
     the links below to see examples of styles grouped by CSS rule or component:
   </p>
 
-  <ul class="my-5 leading-loose">
+  <ul class="my-5 leading-loose list">
     <li>
       <a href="/buttons" on:click={go} class="text-lg">
         Buttons

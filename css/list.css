@@ -1,0 +1,4 @@
+.list li {
+  @apply ml-5;
+  list-style-type: disc;
+}
