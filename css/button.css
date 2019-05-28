@@ -1,26 +1,17 @@
 a.button,
 .button {
-  @apply inline-block px-4 py-3 font-medium rounded shadow no-underline;
-  transition: box-shadow .25s ease-out,
-              background .25s ease-out,
-              transform .25s ease-out;
+  @apply px-5 py-2 font-medium rounded-full no-underline border-2;
+  transition: transform .125s ease-out;
   -webkit-transform: perspective(1px); /* added to fix webkit jitter */
-}
-.button:hover {
-  @apply shadow-lg;
 }
 .button:hover,
 .button:focus {
   @apply outline-none;
 }
 .button:hover:active {
-  @apply shadow-none;
   transform: scale(.96);
 }
 .button-blue, .button-blue:hover {
-  @apply text-white;
-  background: linear-gradient(
-    theme('colors.blue.500'),
-    theme('colors.blue.600')
-  );
+  @apply text-blue-700 border-blue-700;
+  background-color: #f0f5f9;
 }

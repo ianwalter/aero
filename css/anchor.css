@@ -3,6 +3,6 @@ a {
   text-decoration: underline;
   transition: color .125s ease-out;
 }
-a:hover {
+a:active {
   color: theme('colors.blue.500');
 }

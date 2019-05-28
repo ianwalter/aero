@@ -10,13 +10,21 @@
     const { default: Home } = await import('./Home')
     view = Home
   })
-  router.add('/buttons', async () => {
-    const { default: Buttons } = await import('./Buttons')
-    view = Buttons
+  router.add('/button', async () => {
+    const { default: Button } = await import('./Button')
+    view = Button
   })
-  router.add('/cards', async () => {
-    const { default: Cards } = await import('./Cards')
-    view = Cards
+  router.add('/card', async () => {
+    const { default: Card } = await import('./Card')
+    view = Card
+  })
+  router.add('/alert', async () => {
+    const { default: Alert } = await import('./Alert')
+    view = Alert
+  })
+  router.add('/tabs', async () => {
+    const { default: Tabs } = await import('./Tabs')
+    view = Tabs
   })
   router.go()
 </script>

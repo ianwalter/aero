@@ -1,0 +1,12 @@
+.tabs {
+  @apply flex flex-wrap font-medium;
+}
+.tabs .tab, .tabs a.tab {
+  @apply m-2 px-5 py-2 rounded bg-gray-100 border-2 border-gray-200 no-underline text-gray-700;
+}
+.tabs .tab.active, .tabs a.tab.active {
+  @apply text-blue-700 border-blue-700;
+  background-color: #f0f5f9;
+}
+
+

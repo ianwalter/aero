@@ -21,18 +21,18 @@
 
   <ul class="my-5 leading-loose list">
     <li>
-      <a href="/buttons" on:click={go} class="text-lg">
-        Buttons
+      <a href="/button" on:click={go} class="text-lg">
+        Button
       </a>
     </li>
     <li>
-      <a href="/cards" on:click={go} class="text-lg">
-        Cards
+      <a href="/card" on:click={go} class="text-lg">
+        Card
       </a>
     </li>
     <li>
-      <a href="/alerts" on:click={go} class="text-lg">
-        Alerts
+      <a href="/alert" on:click={go} class="text-lg">
+        Alert
       </a>
     </li>
     <li>

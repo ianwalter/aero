@@ -15,7 +15,7 @@ module.exports = (_, { mode = 'development' }) => {
       filename: `js/[name].[${isProduction ? 'contenthash' : 'hash'}].js`,
     },
     resolve: {
-      extensions: ['.js', '.svelte', '.json']
+      extensions: ['.mjs', '.js', '.svelte', '.json']
     },
     plugins: [
       new CleanWebpackPlugin(),
@@ -24,6 +24,7 @@ module.exports = (_, { mode = 'development' }) => {
     ],
     module: {
       rules: [
+        { test: /\.js$/, include: site, loader: 'babel-loader' },
         {
           test: /\.svelte$/,
           include: site,
@@ -38,7 +39,7 @@ module.exports = (_, { mode = 'development' }) => {
           include: site,
           use: [
             {
-              loader:  MiniCssExtractPlugin.loader,
+              loader: MiniCssExtractPlugin.loader,
               options: { hmr: !isProduction }
             },
             'css-loader',
