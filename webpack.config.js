@@ -3,6 +3,8 @@ const CleanWebpackPlugin = require('clean-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const PurgecssPlugin = require('purgecss-webpack-plugin')
+const glob = require('glob')
 
 const site = path.join(__dirname, 'site')
 
@@ -22,7 +24,8 @@ module.exports = (_, { mode = 'development' }) => {
       new CleanWebpackPlugin(),
       new CopyWebpackPlugin([{ from: 'font', to: 'font' }]),
       new HtmlWebpackPlugin({ template: 'site/index.html' }),
-      new MiniCssExtractPlugin({ filename: 'css/[name].[contenthash].css' })
+      new MiniCssExtractPlugin({ filename: 'css/[name].[contenthash].css' }),
+      new PurgecssPlugin({ paths: glob.sync(path.join(site, '**/*.svelte')) })
     ],
     module: {
       rules: [
