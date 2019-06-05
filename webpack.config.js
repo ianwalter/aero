@@ -33,7 +33,10 @@ module.exports = (_, { mode = 'development' }) => {
       new CopyWebpackPlugin([{ from: 'font', to: 'font' }]),
       new HtmlWebpackPlugin({ template: 'site/index.html' }),
       new MiniCssExtractPlugin({ filename: 'css/[name].[contenthash].css' }),
-      new PurgecssPlugin({ paths: glob.sync(path.join(site, '**/*.svelte')) })
+      new PurgecssPlugin({
+        paths: glob.sync(path.join(site, '**/*.svelte')),
+        defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
+      })
     ],
     module: {
       rules: [
