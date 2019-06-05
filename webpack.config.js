@@ -5,6 +5,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const PurgecssPlugin = require('purgecss-webpack-plugin')
 const glob = require('glob')
+const TerserJSPlugin = require('terser-webpack-plugin')
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 
 const site = path.join(__dirname, 'site')
 
@@ -16,6 +18,12 @@ module.exports = (_, { mode = 'development' }) => {
     output: {
       path: path.join(site, 'dist'),
       filename: `js/[name].[${isProduction ? 'contenthash' : 'hash'}].js`,
+    },
+    optimization: {
+      minimizer: [
+        new TerserJSPlugin(),
+        new OptimizeCSSAssetsPlugin()
+      ]
     },
     resolve: {
       extensions: ['.mjs', '.js', '.svelte', '.json']
