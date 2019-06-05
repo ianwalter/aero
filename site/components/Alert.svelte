@@ -57,4 +57,44 @@
 
   </div>
 
+  <div class="alert alert-warning mt-8">
+
+    <i
+      data-eva="alert-triangle"
+      data-eva-height="32"
+      data-eva-width="32"
+      class="float-left mr-3 fill-current"
+    />
+
+    <strong>Warning!</strong> You are reading an alert.
+
+    <i
+      data-eva="close"
+      data-eva-height="32"
+      data-eva-width="32"
+      class="float-right fill-current cursor-pointer"
+    />
+
+  </div>
+
+  <div class="alert alert-danger mt-8">
+
+    <i
+      data-eva="close-circle"
+      data-eva-height="32"
+      data-eva-width="32"
+      class="float-left mr-3 fill-current"
+    />
+
+    <strong>Error!</strong> Something happened. And it's not great.
+
+    <i
+      data-eva="close"
+      data-eva-height="32"
+      data-eva-width="32"
+      class="float-right fill-current cursor-pointer"
+    />
+
+  </div>
+
 </div>
