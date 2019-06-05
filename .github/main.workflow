@@ -8,12 +8,12 @@ action "Install" {
   runs = "yarn"
 }
 
-action "Lint" {
-  uses = "docker://node:12"
-  needs = ["Install"]
-  runs = "yarn"
-  args = "lint"
-}
+# action "Lint" {
+#   uses = "docker://node:12"
+#   needs = ["Install"]
+#   runs = "yarn"
+#   args = "lint"
+# }
 
 action "Build CSS" {
   uses = "docker://node:12"
