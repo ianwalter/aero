@@ -1,6 +1,7 @@
 workflow "CD" {
   on = "push"
-  resolves = ["Lint", "Build CSS", "Deploy"]
+  # resolves = ["Lint", "Build CSS", "Deploy"]
+  resolves = ["Build CSS", "Deploy"]
 }
 
 action "Install" {
