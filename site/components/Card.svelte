@@ -7,16 +7,18 @@
 
 <div class="container w-auto mx-5 sm:mx-auto mt-5">
 
-  <h1 class="text-4xl font-semibold">Card</h1>
+  <a href="#card">
+    <h1 class="text-4xl font-semibold">Card</h1>
+  </a>
 
-  <p class="text-lg">
+  <p class="text-lg py-2">
     An element remeniscent of a playing card in shape used to create a
     separation between the contained content and other content on the page. The
     separation is acheived by sorrounding the card with a shadow making it
     appear to be slightly raised above the page surface.
   </p>
 
-  <div class="pt-10 flex">
+  <div class="pt-8 pb-4 flex">
 
     <div class="card">
 
@@ -26,7 +28,7 @@
 
       <div class="p-6 py-8">
 
-        <p class=>
+        <p>
           Your friendly test runner/framework
         </p>
 
@@ -37,7 +39,7 @@
             </a>
           </li>
           <li>
-            <a href="/" class="flex items-center">
+            <a href="/">
               <i data-eva="github" class="inline-block mr-2"></i>Source
             </a>
           </li>

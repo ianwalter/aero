@@ -1,0 +1,6 @@
+.hr-light {
+  @apply border-t border-gray-400;
+}
+.hr-dark {
+  @apply border-t border-gray-600;
+}

@@ -1,5 +1,5 @@
 .alert {
-  @apply border-2 rounded border-gray-300 p-4 w-full text-lg;
+  @apply border-2 rounded border-gray-300 p-4 w-full leading-loose;
 }
 .alert.alert-success {
   @apply bg-green-100 border-green-700 text-green-700;

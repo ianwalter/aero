@@ -8,7 +8,9 @@
 
 <div class="container w-auto mx-5 sm:mx-auto mt-5">
 
-  <h1 class="text-4xl font-semibold">Tabs</h1>
+  <a href="#tabs">
+    <h1 class="text-4xl font-semibold">Tabs</h1>
+  </a>
 
   <p class="text-lg">
 
