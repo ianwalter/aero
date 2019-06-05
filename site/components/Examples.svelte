@@ -6,13 +6,13 @@
   import Tabs from './Tabs'
 </script>
 
-<div class="container w-auto mx-5 sm:mx-auto flex">
+<div class="container w-auto mx-5 sm:mx-auto">
 
-  <div class="w-1/6">
+  <!-- <div class="w-1/6">
     <Menu />
   </div>
 
-  <div>
+  <div> -->
 
     <section id="button" class="my-16">
       <Button />
@@ -36,6 +36,6 @@
       <Tabs />
     </section>
 
-  </div>
+  <!-- </div> -->
 
 </div>

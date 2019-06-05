@@ -1,4 +1,5 @@
 {
+  "name": "@ianwalter/aero",
   "main": "dist/aero.css",
   "license": "AGPL-3.0",
   "scripts": {
