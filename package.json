@@ -38,7 +38,7 @@
     "@babel/preset-env": "^7.4.5",
     "@ianwalter/history-router": "^2.0.0",
     "@ianwalter/renovate-config": "^1.1.0",
-    "autoprefixer": "^9.5.1",
+    "autoprefixer": "^9.6.0",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^2.0.2",
     "copy-webpack-plugin": "^5.0.3",
