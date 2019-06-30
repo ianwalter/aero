@@ -32,7 +32,7 @@
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
-    "@ianwalter/history-router": "^2.0.1",
+    "@ianwalter/history-router": "^2.1.0",
     "@ianwalter/renovate-config": "^1.1.1",
     "autoprefixer": "^9.6.0",
     "babel-loader": "^8.0.6",
