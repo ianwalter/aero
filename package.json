@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-env": "^7.5.5",
     "@ianwalter/history-router": "^3.0.0",
     "@ianwalter/renovate-config": "^1.1.1",
     "autoprefixer": "^9.6.1",
