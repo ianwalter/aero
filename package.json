@@ -52,7 +52,7 @@
     "purgecss-webpack-plugin": "^1.5.0",
     "svelte": "^3.7.1",
     "svelte-loader": "^2.13.6",
-    "tailwindcss": "^1.1.1",
+    "tailwindcss": "^1.1.2",
     "terser-webpack-plugin": "^1.4.1",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6",
