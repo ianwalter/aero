@@ -30,7 +30,7 @@
     "start": "webpack-dev-server"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.0",
+    "@babel/core": "^7.6.2",
     "@babel/preset-env": "^7.6.0",
     "@ianwalter/history-router": "^3.0.0",
     "@ianwalter/renovate-config": "^1.2.0",
