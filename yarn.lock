@@ -758,22 +758,30 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@ianwalter/history-router@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/history-router/-/history-router-3.0.0.tgz#78ebb83614e29f87d7c9d4b9037e174ac85e6555"
-  integrity sha512-6sGFyyhmTczb+QkafEt2CdtkMPSkJ+v2dtiN1LrloXH4eN48Lres56m/mhm0QW8uC0PRuPo5DEmVsGBbDv/Asg==
+"@ianwalter/history-router@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@ianwalter/history-router/-/history-router-4.1.1.tgz#aaeb5961e6e9881e101843151e73d1827b4c955f"
+  integrity sha512-RZ23T/30HGWLN3Vv+H7TEcIMoUOYTYPN7lKHyHX6f3Kc6GEgJYtadJv1ukN9RPwU5uLrZscU7ZwvOKz1uHtyDA==
   dependencies:
-    "@ianwalter/router" "^1.3.0"
+    "@ianwalter/router" "^2.1.0"
 
 "@ianwalter/renovate-config@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@ianwalter/renovate-config/-/renovate-config-1.2.0.tgz#f84e2fc56ad5d29c0876058c16c25db95baf74a9"
   integrity sha512-OSvziSdR0gxnWeH+9KbS9+HjojFa73vqNFU7wAxWs2ZV/9YofpKw0HwGtzyYgb1xVk8g6ZFPMYaTnFZ4Af6N/w==
 
-"@ianwalter/router@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/router/-/router-1.3.0.tgz#bbb1711a4e0a1b8fd4119f6237a8e660fa97a32e"
-  integrity sha512-ZYQXgR8wSNMt8OLWhXNTQMMbxkIcO/LjSDXXnpAmqgLHJGhXi09CypoqjGUDABlileWIwgrLSFt9fyjuXvryTA==
+"@ianwalter/router@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/router/-/router-2.1.0.tgz#209044572502f07f33a64540caa73b51c459cc8e"
+  integrity sha512-YD+vMNYm+i9GKNPtKgbF0zSKie2CAYoaGIdC0bgFk8F7esJSi4QHHM62GFa8brWhKvTdyTgOQavFLCIGoOGJIA==
+  dependencies:
+    "@ianwalter/url" "^1.1.0"
+    koa-compose "^4.1.0"
+
+"@ianwalter/url@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/url/-/url-1.1.0.tgz#3a2caf69c51cca62899771cc9ca231995a168598"
+  integrity sha512-iq8vz8tWnheulmkdCWdjPipTeXGcSY8HtPuNDyZ53Ggyz19F/KKWRJUkftpirWSalAYdjTf2EAXlVppT6SxtAw==
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -4413,6 +4421,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
+
+koa-compose@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/koa-compose/-/koa-compose-4.1.0.tgz#507306b9371901db41121c812e923d0d67d3e877"
+  integrity sha512-8ODW8TrDuMYvXRwra/Kh7/rJo9BtOfPc6qO8eAfC80CnCvSjSl0bkRM24X6/XBBEyj0v1nRUQ1LyOy3dbqOWXw==
 
 last-call-webpack-plugin@^3.0.0:
   version "3.0.0"
